@@ -397,7 +397,7 @@
 
         One_handed {
             bindings = <
-&kp DELETE     &kp SEMI   &kp Y       &kp U      &kp L   &kp J     &kp B   &kp P  &kp tfztfzertss   &kp W  &kp Q  &kp ESC
+&kp DELETE     &kp SEMI   &kp Y       &kp U      &kp L   &kp J     &kp B   &kp P  &kp F   &kp W  &kp Q  &kp ESC
 &kp SQT        &kp O      &kp I       &kp E      &kp N   &kp M     &kp G   &kp T  &kp S   &kp R  &kp A  &kp TAB
 &kp BACKSPACE  &kp SLASH  &kp PERIOD  &kp COMMA  &kp H   &kp K     &kp V   &kp D  &kp C   &kp X  &kp Z  &kp ENTER
                                       &trans     &trans  &trans    &trans  &none  &trans
