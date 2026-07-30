@@ -1,7 +1,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-    physical_layout0: physical_layout_0 {
+    eyelash_corne_layout: eyelash_corne_layout {
         compatible = "zmk,physical-layout";
         display-name = "Default layout";
         transform = <&default_transform>;
