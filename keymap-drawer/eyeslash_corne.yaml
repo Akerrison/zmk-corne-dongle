@@ -217,35 +217,35 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   LH:
   - $$mdi:backspace-reverse-outline$$
-  - '&as LS(SEMI) SEMI'
-  - '&as LS(Y) Y'
-  - '&as LS(U) U'
-  - '&as LS(L) L'
-  - '&as LS(J) J'
+  - {t: ;, h: Sft+;, s: ':'}
+  - {t: Y, h: Sft+Y}
+  - {t: U, h: Sft+U}
+  - {t: L, h: Sft+L}
+  - {t: J, h: Sft+J}
   - B
   - P
   - F
   - W
   - Q
   - $$mdi:keyboard-esc$$
-  - '&as LS(SQT) SQT'
+  - {t: '''', h: Sft+', s: '"'}
   - '&kAS(O)'
-  - '&as LS(I) I'
-  - '&as LS(E) E'
-  - '&as LS(N) N'
-  - '&as LS(M) M'
-  - '&as LS(G) G'
+  - {t: I, h: Sft+I}
+  - {t: E, h: Sft+E}
+  - {t: N, h: Sft+N}
+  - {t: M, h: Sft+M}
+  - {t: G, h: Sft+G}
   - T
   - S
   - R
   - A
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&as LS(SLASH) SLASH'
-  - '&as LS(PERIOD) PERIOD'
-  - '&as LS(COMMA) COMMA'
-  - '&as LS(H) H'
-  - '&as LS(K) K'
+  - {t: /, h: Sft+/, s: '?'}
+  - {t: ., h: Sft+.}
+  - {t: ',', h: 'Sft+,', s: <}
+  - {t: H, h: Sft+H}
+  - {t: K, h: Sft+K}
   - V
   - D
   - C
