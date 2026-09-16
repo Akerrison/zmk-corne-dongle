@@ -9,6 +9,8 @@
 #define U_MOUSE_MOVE_TIME 650
 #define U_MOUSE_MOVE_DELAY 0
 
+#define AS(keycode) &as LS(keycode) keycode   // Autoshift macro
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
@@ -291,6 +293,14 @@
         //    bindings = <&mo>, <&td_layer>;
         //    hold-trigger-key-positions = <38>;
         //};
+        as: auto_shift{
+            compatible = "zmk,behaviour-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <135>;
+            quick-tap-ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
     };
 };
            
@@ -403,9 +413,9 @@
         One_handed {
             display-name = "LH";
             bindings = <
-&kp DELETE     &kp SEMI   &kp Y       &kp U      &kp L   &kp J     &kp B   &kp P  &kp F   &kp W  &kp Q  &kp ESC
-&kp SQT        &kp O      &kp I       &kp E      &kp N   &kp M     &kp G   &kp T  &kp S   &kp R  &kp A  &kp TAB
-&kp BACKSPACE  &kp SLASH  &kp PERIOD  &kp COMMA  &kp H   &kp K     &kp V   &kp D  &kp C   &kp X  &kp Z  &kp ENTER
+&kp DELETE     &AS(SEMI)   &AS(Y)       &AS(U)      &AS(L)   &AS(J)     &kp B   &kp P  &kp F   &kp W  &kp Q  &kp ESC
+&AS(SQT)        &kAS(O)      &AS(I)       &AS(E)      &AS(N)   &AS(M)     &AS(G)   &kp T  &kp S   &kp R  &kp A  &kp TAB
+&kp BACKSPACE  &AS(SLASH)  &AS(PERIOD)  &AS(COMMA)  &AS(H)   &AS(K)     &kp V   &kp D  &kp C   &kp X  &kp Z  &kp ENTER
                                       &trans     &trans  &trans    &trans  &none  &trans
             >;
         };
