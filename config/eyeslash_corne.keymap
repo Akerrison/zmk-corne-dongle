@@ -438,7 +438,7 @@
             display-name = "LH";
             bindings = <
 &kp DELETE     &as SEMI   &as Y       &as U      &as L   &as J     &kp B   &kp P  &kp F   &kp W  &kp Q  &kp ESC
-&as SQT        &as O      &as I       &as E      &asN   &as M     &as G   &kp T  &kp S   &kp R  &kp A  &kp TAB
+&as SQT        &as O      &as I       &as E      &as N   &as M     &as G   &kp T  &kp S   &kp R  &kp A  &kp TAB
 &kp BACKSPACE  &as SLASH  &as PERIOD  &as COMMA  &as H   &as K     &kp V   &kp D  &kp C   &kp X  &kp Z  &kp ENTER
                                       &trans     &trans  &trans    &trans  &none  &trans
             >;
