@@ -375,9 +375,9 @@
             //                    | CTRL | SHFT | ENT/1 |   | BSPC/2 | SPC  | ALT |
 
             bindings = <
-&kp ESC  &kp Q  &kp W       &kp F           &kp P        &kp B             &kp J            &kp L            &kp U                    &kp Y    &kp SEMI  &kp DEL
-&kp TAB  &kp A  &kp R       &kp S           &kp T        &kp G             &kp M            &kp N            &kp E                    &kp I    &kp O     &kp SQT
-&mo 3    &kp Z  &mt LGUI X  &mt LCTRL C     &mt LALT D   &kp V             &kp K            &mt RIGHT_ALT H  &mt RIGHT_CONTROL COMMA  &kp DOT  &kp FSLH  &kp BSPC
+&kp ESC  &as Q  &as W       &as F           &as P        &as B             &kp J            &kp L            &kp U                    &kp Y    &kp SEMI  &kp DEL
+&kp TAB  &as A  &as R       &as S           &as T        &as G             &kp M            &kp N            &kp E                    &kp I    &kp O     &kp SQT
+&lt 3 BACKSPACE   &lt 2 Z  &mt LGUI X  &mt LCTRL C     &mt LALT D   &as V             &kp K            &mt RIGHT_ALT H  &mt RIGHT_CONTROL COMMA  &kp DOT  &kp FSLH  &kp BSPC
                             &kp LEFT_SHIFT  &lt 5 SPACE  &lt 1 RET        &lt 2 BACKSPACE  &lt 5 SPACE      &kp RIGHT_SHIFT
             >;
         };
