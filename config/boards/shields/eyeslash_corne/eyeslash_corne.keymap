@@ -267,11 +267,11 @@
             layers = <5>;
         };
         
-        //OH_MO_2 {
-        //    bindings = <&mo 2>;
-        //    key-positions = <37 38>;
-        //    layers = <0>;
-        //};
+        OH_MO_2 {
+            bindings = <&mo 2>;
+            key-positions = <37 38>;
+            layers = <0>;
+        };
     };
 };
 
@@ -295,6 +295,7 @@
         as_ht: autoshift_hold_tap{
             compatible = "zmk,behavior-hold-tap";
             label = "AUTOSHIFT_HOLD_TAP";
+            flavor = "tap-preferred";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             bindings = <&shifted>, <&kp>;
