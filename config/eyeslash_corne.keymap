@@ -328,6 +328,7 @@
                 <&kp UP_ARROW>, 
                 <&kp UP_ARROW>,
                 <&kp UP_ARROW>, 
+                <&kp UP_ARROW>,
                 <&kp RET>;
             label = "SERIAL_NUMBER";
             wait-ms = <40>;
